@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    /* background-color: #b7afaf; */
+}
+
+h1{
+    font-size: 120px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+}
+
+.myContainer{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin: auto;
+    /* margin-left: 165px; */
+}
+
+.myBtnContainer{
+    width: 50%;
+    margin: auto;
+}
+
+.myBtn{
+    font-size: 40px;
+    font-weight: bold;
+    width: 20%;
+    background: none;
+    color: white;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin: 0px 37px;
+}
+
+.myBtn:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.hours-block, .minutes-block, .seconds-block{
+    margin: 20px;
+    padding: 80px;
+    font-size: 70px;
+    /* background: white; */
+    color: white;
+    font-weight: bold;
+    /* border-radius: 68px; */
+    /* border: 2px dashed blue; */
+    margin-top: 0px;
+}
+
+#hoursDisplay{
+    color: red;
+}
+
+#minsDisplay{
+    color: blue;
+}
+
+#secsDisplay{
+    color: yellow;
+}
